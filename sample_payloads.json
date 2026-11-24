@@ -1,0 +1,18 @@
+{
+  "inbound_sales_order_webhook": {
+    "endpoint": "POST /api/v1/erp/sales-orders",
+    "payload": {
+      "so_number": "SO-2026-105",
+      "customer_name": "Apex Retail Group",
+      "sku": "FG-100",
+      "order_qty": 150
+    }
+  },
+  "stakeholder_assistant_request": {
+    "endpoint": "POST /api/v1/assistant/query",
+    "payload": {
+      "user_role": "Supply Chain Manager",
+      "question": "What is the status of SO-2026-103 and how does 3-way match work?"
+    }
+  }
+}
